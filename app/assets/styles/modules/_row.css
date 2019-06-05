@@ -64,8 +64,8 @@
     }
 
   }
-    
-    @mixin atLarge {
+
+  @mixin atLarge {
 
     &__b-margin-until-large {
       margin-bottom: 0;
@@ -108,7 +108,8 @@
     }
 
   }
-    &--equal-height-at-large {
+
+  &--equal-height-at-large {
     @mixin atLarge {
       display: flex;
     }
